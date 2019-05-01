@@ -56,7 +56,7 @@ class Logger:
 if __name__ == "__main__":
   options = docopt(__doc__)
   fnformat = options["--format"]
-  outputDir = options["<outputDir>"]
+  outputDir = options["--output"]
   mode = None
   if options["--local"]:
     mode = "local"
