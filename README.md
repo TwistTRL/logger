@@ -1,9 +1,9 @@
 # logger
 
 # Usage
-`
+```
   logger.py [--local|--utc] --format=<fnformat> --output=<outputDir>
-`
+```
 
 # Options
 ```
