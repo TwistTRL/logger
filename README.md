@@ -1,8 +1,14 @@
 # logger
+Reads standard inputs and logs them into file chunked by datetime format specified.
+
+# Install
+```
+pip install git+https://github.com/TwistTRL/logger
+```
 
 # Usage
 ```
-  logger.py [--local|--utc] --format=<fnformat> --output=<outputDir>
+logger.py [--local|--utc] --format=<fnformat> --output=<outputDir>
 ```
 
 # Options
