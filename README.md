@@ -10,6 +10,7 @@ pip install git+https://github.com/TwistTRL/logger
 ```
 logger.py [--local|--utc] --format=<fnformat> --output=<outputDir>
 ```
+e.g. cat streaming_source.pipe | logger.py --local --format="%Y-%m-%d" --output=./log
 
 # Options
 ```
