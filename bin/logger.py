@@ -64,7 +64,7 @@ if __name__ == "__main__":
     mode = "utc"
   
   logger = Logger(mode,fnformat,outputDir)
-  print(fnformat)
+  print(mode,fnformat,outputDir)
   
   while True:
     content = input()
